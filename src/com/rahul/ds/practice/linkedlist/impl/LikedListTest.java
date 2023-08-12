@@ -34,10 +34,9 @@ public class LikedListTest {
     System.out.println("************ Adding new Node at Index 2 with value 68 ************");
     list.printLinkedList();
 
-
-
-
-
+    list.pop(2);
+    System.out.println("************ Deleting the node from the index 2 ************");
+    list.printLinkedList();
 
 
   }

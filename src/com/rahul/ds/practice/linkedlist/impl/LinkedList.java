@@ -162,4 +162,30 @@ public class LinkedList {
     }
     System.out.println("");
   }
+
+  public Node pop(int index)
+  {
+    Node curr= head;
+    int count=0;
+    if(index<0 && index>size)
+    {
+      return null;
+    }
+    else
+    {
+      while(curr !=null && count<index)
+      {
+        curr= curr.getNext();
+        count++;
+      }
+      if(count==index)
+      {
+        Node prev_node= this.get(index-1);
+        prev_node.setNext(curr.getNext());
+
+      }
+    }
+    return curr;
+  }
+
 }
