@@ -7,7 +7,7 @@ public class LinkedList {
   Node head;
   Node tail;
 
-  LinkedList() {
+  public LinkedList() {
   }
   public int getSize() {
     return size;
