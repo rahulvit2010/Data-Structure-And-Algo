@@ -38,6 +38,11 @@ public class LikedListTest {
     System.out.println("************ Deleting the node from the index 2 ************");
     list.printLinkedList();
 
+    System.out.println("************ Reverse the linked list ************");
+    list.reverseList();
+    list.printLinkedList();
+
+
 
   }
 

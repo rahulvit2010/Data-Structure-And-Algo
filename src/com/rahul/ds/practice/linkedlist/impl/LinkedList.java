@@ -188,4 +188,21 @@ public class LinkedList {
     return curr;
   }
 
+  public Node reverseList()
+  {
+    Node prev=null;
+    Node curr= head;
+    tail=head;
+
+    while(curr !=null)
+    {
+      Node temp= curr.getNext();
+      curr.setNext(prev);
+      prev= curr;
+      curr= temp;
+    }
+    head=prev;
+    return prev;
+  }
+
 }
