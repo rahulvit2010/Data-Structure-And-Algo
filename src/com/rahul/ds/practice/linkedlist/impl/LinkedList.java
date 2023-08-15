@@ -163,6 +163,28 @@ public class LinkedList {
     System.out.println("");
   }
 
+  public void printLinkedList(Node head)
+  {
+    if(head==null)
+    {
+      System.out.println("Linked list is Empty");
+    }
+    else
+    {
+      Node curr= head;
+      while(curr!=null && curr.getNext() !=null)
+      {
+        System.out.print(curr.getValue() +"---->");
+        curr= curr.getNext();
+      }
+      if(curr.getNext()==null)
+      {
+        System.out.print( curr.getValue()+"---->"+"NULL");
+      }
+    }
+    System.out.println("");
+  }
+
   public Node pop(int index)
   {
     Node curr= head;
