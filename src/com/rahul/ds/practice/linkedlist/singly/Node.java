@@ -1,4 +1,4 @@
-package com.rahul.ds.practice.linkedlist;
+package com.rahul.ds.practice.linkedlist.singly;
 
 public class Node {
 

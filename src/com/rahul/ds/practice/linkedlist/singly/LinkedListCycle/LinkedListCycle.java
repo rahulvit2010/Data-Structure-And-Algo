@@ -1,7 +1,7 @@
-package com.rahul.ds.practice.linkedlist.LinkedListCycle;
+package com.rahul.ds.practice.linkedlist.singly.LinkedListCycle;
 
-import com.rahul.ds.practice.linkedlist.Node;
-import com.rahul.ds.practice.linkedlist.impl.LinkedList;
+import com.rahul.ds.practice.linkedlist.singly.Node;
+import com.rahul.ds.practice.linkedlist.singly.impl.LinkedList;
 
 public class LinkedListCycle {
 

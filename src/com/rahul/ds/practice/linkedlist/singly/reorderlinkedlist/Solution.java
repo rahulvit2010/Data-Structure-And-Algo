@@ -1,8 +1,8 @@
-package com.rahul.ds.practice.linkedlist.reorderlinkedlist;
+package com.rahul.ds.practice.linkedlist.singly.reorderlinkedlist;
 
 
-import com.rahul.ds.practice.linkedlist.Node;
-import com.rahul.ds.practice.linkedlist.impl.LinkedList;
+import com.rahul.ds.practice.linkedlist.singly.Node;
+import com.rahul.ds.practice.linkedlist.singly.impl.LinkedList;
 
 public class Solution {
 

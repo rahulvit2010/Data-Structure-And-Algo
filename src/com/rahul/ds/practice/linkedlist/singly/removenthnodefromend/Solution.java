@@ -1,7 +1,7 @@
-package com.rahul.ds.practice.linkedlist.removenthnodefromend;
+package com.rahul.ds.practice.linkedlist.singly.removenthnodefromend;
 
-import com.rahul.ds.practice.linkedlist.Node;
-import com.rahul.ds.practice.linkedlist.impl.LinkedList;
+import com.rahul.ds.practice.linkedlist.singly.Node;
+import com.rahul.ds.practice.linkedlist.singly.impl.LinkedList;
 
 public class Solution {
 

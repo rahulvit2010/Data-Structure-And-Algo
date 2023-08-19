@@ -1,7 +1,7 @@
-package com.rahul.ds.practice.linkedlist.mergeksortedlist;
+package com.rahul.ds.practice.linkedlist.singly.mergeksortedlist;
 
-import com.rahul.ds.practice.linkedlist.Node;
-import com.rahul.ds.practice.linkedlist.impl.LinkedList;
+import com.rahul.ds.practice.linkedlist.singly.Node;
+import com.rahul.ds.practice.linkedlist.singly.impl.LinkedList;
 
 public class Solution {
 
@@ -26,7 +26,7 @@ public class Solution {
     list3.push(30);
     list3.printLinkedList();
 
-    Node [] input = new Node[3];
+    Node[] input = new Node[3];
     input[0]=list1.getHead();
     input[1]=list2.getHead();
     input[2]= list3.getHead();

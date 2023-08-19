@@ -1,6 +1,6 @@
-package com.rahul.ds.practice.linkedlist.impl;
+package com.rahul.ds.practice.linkedlist.singly.impl;
 
-import com.rahul.ds.practice.linkedlist.Node;
+import com.rahul.ds.practice.linkedlist.singly.Node;
 
 public class LinkedList {
   int size;
