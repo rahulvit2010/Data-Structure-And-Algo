@@ -13,7 +13,7 @@ public class Solution {
   {
     int window_sum=0;
     int window_start=0;
-    double max_avg_sum=0.0;
+    double max_avg_sum=Double.NEGATIVE_INFINITY;
 
     for(int window_end=0; window_end<nums.length;window_end++)
     {
